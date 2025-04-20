@@ -4,6 +4,9 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #ffffff;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -41,7 +44,45 @@ body {
   align-items: center;
   padding: 10px;
 }
-.hero .card {
+.hero .intro {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero .intro h1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+  max-width: 300px;
+}
+.hero .intro #product {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 700;
+  color: black;
+  max-width: 300px;
+  margin: 10px 0;
+  background-color: gold;
+}
+.hero .intro #product a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.cardContainer .card {
   width: 200px;
   display: flex;
   justify-content: flex-start;
@@ -52,45 +93,45 @@ body {
   position: relative;
   overflow: hidden;
 }
-.hero .card .heart {
+.cardContainer .card .heart {
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: pointer;
 }
-.hero .card .heart i {
+.cardContainer .card .heart i {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.432);
 }
-.hero .card .discount {
+.cardContainer .card .discount {
   position: absolute;
   background-color: gold;
   padding: 2px 3px;
   top: 10px;
   left: 0;
 }
-.hero .card .image {
+.cardContainer .card .image {
   width: 200px;
   border-radius: 10px;
   height: 200px;
 }
-.hero .card .image img {
+.cardContainer .card .image img {
   width: 100%;
   height: 100%;
 }
-.hero .card .desc {
+.cardContainer .card .desc {
   text-align: center;
   padding: 10px;
 }
-.hero .card .desc .price {
+.cardContainer .card .desc .price {
   display: flex;
   justify-content: center;
   gap: 5px;
 }
-.hero .card .desc .price h5 {
+.cardContainer .card .desc .price h5 {
   color: tomato;
 }
-.hero .card .desc button {
+.cardContainer .card .desc button {
   border: none;
   border-radius: 5px;
   background: gold;
@@ -100,7 +141,7 @@ body {
   padding: 10px;
   color: black;
 }
-.hero .card .desc button i {
+.cardContainer .card .desc button i {
   font-size: 14px;
   padding: 4px;
 }/*# sourceMappingURL=style.css.map */
