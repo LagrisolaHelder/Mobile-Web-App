@@ -52,6 +52,15 @@ body {
   flex-direction: column;
 }
 .hero .intro h1 {
+  line-height: 1.2;
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+  max-width: 300px;
+  margin: 10px 0;
+  text-align: center;
+}
+.hero .intro h1 {
   font-size: 30px;
   font-weight: 900;
   color: black;
@@ -78,12 +87,17 @@ body {
 .cardContainer {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 50px 0;
 }
 .cardContainer .card {
   width: 200px;
+  background-color: white;
   display: flex;
   justify-content: flex-start;
   border: 2px solid rgba(0, 0, 0, 0.199);
@@ -112,8 +126,8 @@ body {
 }
 .cardContainer .card .image {
   width: 200px;
-  border-radius: 10px;
   height: 200px;
+  background-color: whitesmoke;
 }
 .cardContainer .card .image img {
   width: 100%;
