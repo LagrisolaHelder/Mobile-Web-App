@@ -67,20 +67,16 @@ body {
   max-width: 300px;
 }
 .hero .intro #product {
-  height: 50px;
+  padding: 10px 20px;
+  margin-top: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  font-weight: 700;
-  color: black;
-  max-width: 300px;
-  margin: 10px 0;
-  background-color: gold;
+  font-weight: 300;
 }
 .hero .intro #product a {
   text-decoration: none;
+  margin: 0 10px;
   padding: 10px 20px;
+  background-color: gold;
   color: black;
 }
 

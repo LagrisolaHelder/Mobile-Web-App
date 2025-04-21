@@ -83,19 +83,17 @@ body{
             
         }
         #product{
-           height: 50px;
-           display: flex;
-           justify-content: center;
-              align-items: center;  
-              border-radius: 10px ;
-          font-weight: 700;
-            color: black;
-            max-width: 300px;
-            margin: 10px 0;
-            background-color: gold;
+       padding: 10px 20px;
+       margin-top: 20px;
+       display: flex; 
+       font-weight: 300;
+            
+          
             a{
                 text-decoration: none;
-                padding: 10px 20px;
+                margin: 0 10px;
+                padding: 10px 20px; 
+                background-color: gold;
                 color: black;
             }
         }
@@ -187,3 +185,7 @@ body{
         }
     }
 }
+
+
+ 
+ 
