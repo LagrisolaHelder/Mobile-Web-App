@@ -178,4 +178,24 @@ body {
   width: 100%;
   padding: 20px;
   border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+}
+.footer i {
+  color: black;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.footer i:hover {
+  color: rgb(66, 66, 66);
 }/*# sourceMappingURL=style.css.map */
