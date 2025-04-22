@@ -162,4 +162,20 @@ body {
 .cardContainer .card .desc button i {
   font-size: 14px;
   padding: 4px;
+}
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+}
+.FAQ .faq {
+  max-width: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
