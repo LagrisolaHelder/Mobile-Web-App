@@ -208,7 +208,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 400px;
+  width: 100%;
 }
 .contact form input {
   width: 100%;
