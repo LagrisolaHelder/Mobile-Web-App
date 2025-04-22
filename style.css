@@ -78,6 +78,10 @@ body {
   padding: 10px 20px;
   background-color: gold;
   color: black;
+  transition: all 0.3s ease-in-out;
+}
+.hero .intro #product a:hover {
+  background-color: #f0ca00;
 }
 
 .cardContainer {
@@ -150,6 +154,10 @@ body {
   font-size: 14px;
   padding: 10px;
   color: black;
+  transition: all 0.3s ease-in-out;
+}
+.cardContainer .card .desc button:hover {
+  background-color: #f0ca00;
 }
 .cardContainer .card .desc button i {
   font-size: 14px;
