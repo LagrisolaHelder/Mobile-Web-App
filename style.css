@@ -39,6 +39,7 @@ body {
 .hero {
   display: flex;
   justify-content: center;
+  background-image: url("productImages/image.png");
   width: 100%;
   min-height: 100vh;
   align-items: center;
@@ -86,6 +87,7 @@ body {
 }
 
 .cardContainer {
+  background-image: url("productImages/image.png");
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -165,19 +167,21 @@ body {
   padding: 4px;
 }
 
-.FAQ {
+.faqContainer {
   display: flex;
+  background-image: url("productImages/image.png");
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 50px;
   gap: 20px;
 }
-.FAQ .faq {
+.faqContainer .faq {
   max-width: 600px;
   border: 1px solid rgba(0, 0, 0, 0.13);
   width: 100%;
   padding: 20px;
+  background-color: white;
   border-radius: 5px;
 }
 
@@ -185,6 +189,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("productImages/image.png");
   min-height: 100vh;
   padding: 50px;
   gap: 20px;
