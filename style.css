@@ -194,6 +194,7 @@ body {
 .deliveryCar .deliveryCard ul {
   list-style: none;
   padding: 0;
+  font-size: 14px;
   margin: 0;
 }
 .deliveryCar .deliveryCard ul li i {
