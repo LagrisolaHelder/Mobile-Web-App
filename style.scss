@@ -111,7 +111,7 @@ body{
 }
  
 .cardContainer{
-    background-image: url('productImages/image.png');
+ 
 
     display: flex;
     justify-content: center;
@@ -205,8 +205,7 @@ body{
  
  .faqContainer{
  display: flex;
- background-image: url('productImages/image.png');
- 
+  
  flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -230,7 +229,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('productImages/image.png');
     min-height: 100vh;
     padding: 50px;
     gap: 20px;
