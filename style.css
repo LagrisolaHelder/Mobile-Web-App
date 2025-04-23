@@ -74,10 +74,12 @@ body {
 }
 .hero .intro #product a {
   text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.041);
   margin: 0 10px;
   padding: 10px 20px;
   border-radius: 5px;
   background-color: gold;
+  border: 1px solid rgba(0, 0, 0, 0.068);
   color: black;
   transition: all 0.3s ease-in-out;
 }
