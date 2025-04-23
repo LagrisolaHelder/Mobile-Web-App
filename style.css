@@ -39,7 +39,6 @@ body {
 .hero {
   display: flex;
   justify-content: center;
-  background-image: url("productImages/image.png");
   width: 100%;
   min-height: 100vh;
   align-items: center;
